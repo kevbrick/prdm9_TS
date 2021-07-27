@@ -16,11 +16,14 @@ Simply download and run the test : `infer_PRDM9_template_switches --t `
 Get help: 
 `infer_PRDM9_template_switches --h`
 
-With a FASTA file: This will look for all possible parent:child relationships between sequences in the FASTA file. 
+With a FASTA file: <br/>
+This will look for all possible parent:child relationships between sequences in the FASTA file. <br/>
 `infer_PRDM9_template_switches --f <<FASTA file>>`
 
-For select child alleles: This will look for all possible parent:child relationships involving PRDM9-N as the child allele (all allele combinations will be explored).
+For select child alleles: <br/>
+This will look for all possible parent:child relationships involving PRDM9-N as the child allele (all allele combinations will be explored).<br/>
 `infer_PRDM9_template_switches --f <<FASTA file>> --c N`
 
-For select parental & child alleles: This will look for all possible parent:child relationships involving PRDM9-N as the child allele anw with PRDM9-A and PRDM9-C as potential parental alleles.
+For select parental & child alleles: <br/>
+This will look for all possible parent:child relationships involving PRDM9-N as the child allele anw with PRDM9-A and PRDM9-C as potential parental alleles.<br/>
 `infer_PRDM9_template_switches --f <<FASTA file>> --c N --p A,C`
