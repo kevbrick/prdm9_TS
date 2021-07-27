@@ -4,8 +4,8 @@ Script to infer putative template switching events that create new PRDM9 ZF arra
 ## Requirements:
 * Linux (tested on Ubuntu 20.04)
 * Perl Getopt::Long module
-* FASTA file with the DNA sequneces of PRDM9 Zinc-finger arrays
-
+* FASTA file with the DNA sequences of PRDM9 Zinc-finger arrays (not needed for initial tests)
+ 
 ## Notes:
 See Alleva et al. 2021 for details.
 
