@@ -417,7 +417,7 @@ sub print_output_header {
   print TSOUT "##                            -- Template switch -- \n";
   print TSOUT "##                            Tract 2 = 2175-2271 from PRDM9-C\n";
   print TSOUT "##                            \n";
-  print TSOUT "## parentage_map              Schematic of the parental origins of the child allele. \n";
+  print TSOUT "## ts_simplified              Schematic of the parental origins of the child allele. \n";
   print TSOUT "##                              1 = derived from parent 1\n";
   print TSOUT "##                              2 = derived from parent 2\n";
   print TSOUT "##                              3 = location of template switch\n";
